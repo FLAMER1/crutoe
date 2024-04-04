@@ -1,0 +1,247 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.between {
+  display: flex;
+  padding: 30px 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .ddd a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 40px;
+}
+
+.sec {
+  width: 100%;
+  height: 100vh;
+  background-image: url(img/hero-bg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.sec .flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.sec .flex .kkk {
+  text-align: center;
+  width: 40%;
+}
+.sec .flex .kkk h1 {
+  font-size: 90px;
+  width: 100%;
+  color: #fff;
+}
+.sec .flex .kkk p {
+  font-size: 20px;
+  width: 100%;
+  color: #fff;
+}
+.sec .fff {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+}
+.sec .fff .lll {
+  width: 331px;
+  height: 138px;
+  color: #fff;
+}
+.sec .fff .hhh {
+  width: 331px;
+  height: 138px;
+  color: #fff;
+}
+
+.sw {
+  background-color: black;
+  margin: 100px 0;
+}
+.sw .aaa {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.sw .dsd {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  text-align: center;
+  width: 30%;
+  margin: 100px auto 0 auto;
+}
+.sw .dsd h1 {
+  font-size: 50px;
+}
+.sw .dsd p {
+  font-size: 25px;
+}
+.sw .llkj .ghht {
+  background: url(img/neom-GCrvnNHJAMo-unsplash\ 1.png) no-repeat center center/cover;
+}
+
+.grid-container {
+  margin-top: 50px;
+  background-color: black;
+}
+.grid-container .main-grid {
+  display: grid;
+  grid-gap: 20px;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.grid-container .main-grid .grid-image {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+}
+.grid-container .main-grid .grid-image h6 {
+  font-size: 20px;
+}
+.grid-container .main-grid .grid-image p {
+  font-size: 19px;
+}
+.grid-container .main-grid .card-grid1 {
+  grid-area: 1/1/3/2;
+  background: url(img/neom-GCrvnNHJAMo-unsplash\ 1.png) no-repeat center center/cover;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 70vh;
+  padding: 20px 30px;
+  border-radius: 40px;
+}
+.grid-container .main-grid .card-grid2 {
+  grid-area: 1/2/2/3;
+  background: url(img/мазги.png) no-repeat center center/cover;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 40px;
+}
+.grid-container .main-grid .card-grid3 {
+  grid-area: 1/3/3/4;
+  background: url(img/Mask\ group\ \(2\).png) no-repeat center center/cover;
+  display: flex;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px 30px;
+  border-radius: 40px;
+}
+.grid-container .main-grid .card-grid3 img {
+  border-radius: 50%;
+}
+.grid-container .main-grid .card-grid4 {
+  grid-area: 3/1/4/2;
+  background: url(img/pawel-nolbert-62OK9xwVA0c-unsplash\ 1.png) no-repeat center center/cover;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-radius: 40px;
+}
+.grid-container .main-grid .card-grid5 {
+  grid-area: 2/2/4/3;
+  background: url(img/saleh-caljrUf41Jw-unsplash\ 1.png) no-repeat center center/cover;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-radius: 40px;
+}
+.grid-container .main-grid .card-grid6 {
+  grid-area: 3/3/4/4;
+  background: url(img/Frame\ 40018.png) no-repeat center center/cover;
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 30px;
+  border-radius: 40px;
+}
+.grid-container .main-grid p, .grid-container .main-grid h1, .grid-container .main-grid h6 {
+  color: #fff;
+}
+
+.ghy {
+  background-color: black;
+  font-size: 10px;
+  width: 100%;
+}
+.ghy .hyf {
+  justify-content: center;
+  display: flex;
+  width: 100%;
+}
+.ghy .hyf p {
+  color: #fff;
+  width: 1500px;
+  font-size: 40px;
+  padding: 100px;
+}
+.ghy .sdddfg .tgh {
+  width: 80%;
+  margin: 0 auto;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ghy .sdddfg .tgh h1 {
+  color: #fff;
+  font-size: 150px;
+  width: 900px;
+}
+.ghy .sdddfg .tgh img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.fgb {
+  background-color: rgb(59, 59, 59);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 600px;
+}
+.fgb .bgghj {
+  display: flex;
+  gap: 150px;
+  color: #fff;
+}
+.fgb .bgghj .dfdf {
+  font-size: 20px;
+}/*# sourceMappingURL=staili.css.map */
