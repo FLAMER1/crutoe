@@ -12,7 +12,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 10px 100px;
-  background-color: #F1F6F6;
+  background-color: #f1f6f6;
 }
 header nav {
   display: flex;
@@ -20,7 +20,7 @@ header nav {
 }
 header nav a {
   text-decoration: none;
-  color: #004A43;
+  color: #004a43;
   font-size: 16px;
 }
 header div {
@@ -28,7 +28,7 @@ header div {
   gap: 20px;
 }
 header div a {
-  color: #7D77FC;
+  color: #7d77fc;
   font-size: 16px;
   text-decoration: none;
 }
@@ -39,10 +39,10 @@ header div a {
   display: flex;
   align-items: center;
   padding: 10px 100px;
-  background-color: #F1F6F6;
+  background-color: #f1f6f6;
 }
 .hero .bb button {
-  background-color: #FFAD3D;
+  background-color: #ffad3d;
   width: 386px;
   height: 67px;
   border-radius: 12px;
@@ -68,10 +68,10 @@ header div a {
   align-items: center;
   justify-content: center;
   display: flex;
-  background-color: #F1F6F6;
+  background-color: #f1f6f6;
 }
 .gg p {
-  color: #5C9992;
+  color: #5c9992;
   font-size: 15px;
 }
 
@@ -123,15 +123,15 @@ header div a {
 }
 .cv .box h1 {
   font-size: 32px;
-  color: #004A43;
+  color: #004a43;
 }
 .cv .box p {
-  color: #345E5A;
+  color: #345e5a;
   font-size: 15px;
 }
 
 .zaz {
-  background-color: #F1F6F6;
+  background-color: #f1f6f6;
 }
 .zaz h2 {
   text-align: center;
@@ -221,7 +221,7 @@ header div a {
 }
 
 .aziz {
-  background-color: #F1F6F6;
+  background-color: #f1f6f6;
   width: 100%;
   font-size: 30px;
 }
@@ -274,7 +274,7 @@ header div a {
 
 .vfv {
   width: 100%;
-  background-color: #F1F6F6;
+  background-color: #f1f6f6;
 }
 .vfv .vfgh {
   text-align: center;
@@ -283,7 +283,7 @@ header div a {
   font-size: 40px;
 }
 .vfv .vfvfvfvfvf {
-  width: 1211px;
+  width: 100%;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -308,7 +308,7 @@ header div a {
 .vfv .vfvfvfvfvf .gfjh a {
   padding: 10px;
   text-decoration: none;
-  color: #7D77FC;
+  color: #7d77fc;
 }
 .vfv .vfvfvfvfvf .dffg {
   background-color: #fff;
@@ -327,12 +327,12 @@ header div a {
 .vfv .vfvfvfvfvf .dffg a {
   padding: 10px;
   text-decoration: none;
-  color: #7D77FC;
+  color: #7d77fc;
 }
 
 .finish {
   width: 100%;
-  background-color: #004A43;
+  background-color: #004a43;
 }
 .finish .mhjn {
   text-align: center;
@@ -343,8 +343,8 @@ header div a {
   color: #fff;
 }
 .finish .mhjn button {
-  background-color: #FFAD3D;
-  color: #004A43;
+  background-color: #ffad3d;
+  color: #004a43;
   width: 20%;
   height: 7vh;
   border-radius: 20px;
@@ -382,4 +382,104 @@ header div a {
 .finish .fil .bobl p {
   font-size: 25px;
   padding: 10px;
+}
+
+@media (max-width: 960px) {
+  header nav {
+    display: none;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 10px 50px;
+  }
+  .hero img {
+    width: 100%;
+  }
+  .hero .bb h1 {
+    width: 100%;
+  }
+  .hero .bb p {
+    width: 100%;
+  }
+  .hero .bb button {
+    width: 300px;
+    height: 50px;
+  }
+  .s1 .ss {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .aa {
+    flex-direction: column;
+    justify-content: center;
+  }
+  section {
+    padding: 10px 50px;
+  }
+  .hf {
+    height: auto;
+    padding: 10px 50px;
+  }
+  .qq {
+    display: none;
+  }
+  .cv .box {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid .gh,
+  .grid .fd {
+    flex-direction: column;
+  }
+  .bbg .lkj .repid h2 {
+    font-size: 30px;
+  }
+  .bbg .lkj .sos,
+  .bbg .lkj .nhf {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .bbg .lkj .sos .mm,
+  .bbg .lkj .nhf .mm {
+    width: auto;
+    height: auto;
+  }
+  .aziz .nm {
+    width: auto;
+  }
+  .dsc {
+    height: auto;
+  }
+  .dsc .ghhh {
+    flex-direction: column;
+  }
+  .dsc .ghhh .ffd {
+    width: 100%;
+  }
+  .vfv .vfvfvfvfvf {
+    width: 100%;
+    flex-direction: column;
+  }
+  .vfv .vfvfvfvfvf .gfjh img {
+    width: 100%;
+  }
+  .finish .mhjn {
+    padding: 10px;
+  }
+  .finish .mhjn button {
+    width: auto;
+  }
+  .finish .fil {
+    flex-direction: column;
+  }
+  .finish .fil div {
+    width: 100%;
+    color: #fff;
+  }
 }/*# sourceMappingURL=staili.css.map */
